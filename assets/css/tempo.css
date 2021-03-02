@@ -1,0 +1,89 @@
+.cw-img-cover {
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#nav-body,#nav-body .navbar-brand {
+  transition: all .6s ease-in-out;
+}
+.cw__navigation--sticky {
+  min-height: 150px;
+  background-size: 20px auto;
+}
+.cw__navigation--sticky>.navbar>.navbar-brand{
+  height: 120px !important;
+}
+.cw__navigation--scrolldown {
+  min-height: 70px;
+  background-size: 20px auto;
+}
+.cw__navigation--scrolldown>.navbar>.navbar-brand{
+  height: 55px!important;
+}
+.cw__nosotros--background{
+  background: rgb(33, 37, 43);
+  background: linear-gradient(
+    0deg,
+    rgba(33, 37, 43, 1) 10%,
+    rgba(99, 12, 12, 0.9) 50%,
+    rgba(33, 37, 43, 1) 90%
+  );
+}
+.cw__image--arrow{
+  
+  clip-path: polygon(
+    100% 0%,
+    75% 50%,
+    100% 100%,
+    25% 100%,
+    0% 50%,
+    25% 0%
+  );
+  width: 400px;
+  height: 400px;
+  filter: saturate(800%) grayscale(90%);
+}
+
+.cw__font--title{
+  font-size: 75px
+}
+
+@media (max-width: 768px){
+.cw__font--title{
+  font-size: 45px
+}
+}
+
+
+.cw-card-reserva {
+  height: 470px;
+  width: 350px;
+  cursor: pointer;
+}
+.cw-card-reserva:hover .cw-reserve-hover {
+  background-color: #20202098;
+}
+
+.cw-reserve-hover:hover {
+  box-shadow: 0px 0px 15px rgba(22, 22, 22, 0.8);
+}
+@media (max-width: 1366px) {
+  .owl-nav {
+    font-size: 45px !important;
+  }
+  .owl-nav > button > span {
+    padding-top: 0px;
+    text-shadow: 0px 0px 5px #202020;
+  }
+}
+@media (min-width: 1367px) {
+  .cw-owl-carousel {
+    width: 1366px !important;
+    margin: auto;
+  }
+  .owl-nav {
+    width: 110%;
+    right: -5%;
+  }
+}
